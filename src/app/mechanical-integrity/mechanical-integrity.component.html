@@ -1,0 +1,23 @@
+<div style="width: 80%;">
+  <kendo-grid [data]="gridView" [pageSize]="state.take" [skip]="state.skip" [filter]="state.filter" [pageable]="true"
+    [height]="410" [filterable]="true" (dataStateChange)="dataStateChange($event)">
+    <kendo-grid-column field="PickMIComponent" title="Component">
+    </kendo-grid-column>
+    <kendo-grid-column field="PickMIRecomendation" title="Recomendation">
+    </kendo-grid-column>
+    <kendo-grid-column field="Comments" title="Comments">
+    </kendo-grid-column>
+    <kendo-grid-column field="UrlImage" title="Image">
+    </kendo-grid-column>
+    <kendo-grid-column field="NeedResponse" title="Need Reponse">
+    </kendo-grid-column>
+    <kendo-grid-column field="Discontinued" title="Discontinued">
+    </kendo-grid-column>
+    <kendo-grid-column field="FileString" title="File">
+    </kendo-grid-column>
+    <kendo-grid-column field="FileName" title="File Name">
+    </kendo-grid-column>
+    <kendo-grid-column field="OperationalComments" title="Operational Comments">
+    </kendo-grid-column>
+  </kendo-grid>
+</div>
